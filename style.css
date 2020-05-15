@@ -1,0 +1,120 @@
+/* Fonts */
+
+/* Description font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokemonCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  border-radius: 30px;
+  height: 480px;
+  width: 300px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  background-image: url("./Images/CapVIron.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px;
+  color: red;
+}
+
+.pokemonName {
+  border: 2px dotted white;
+  border-radius: 15px;
+  background-color: #1849ca;
+  height: 25px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+  padding:2px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.pokemonImg{
+    margin-bottom: 10px;
+
+}
+.pokemonImg img{
+  border-radius:15px;
+  width:280px;
+  height:180px;
+  -webkit-border-radius:15px;
+  -moz-border-radius:15px;
+  -ms-border-radius:15px;
+  -o-border-radius:15px;
+}
+
+.pokemonDescription{
+    position: relative;
+    border: 2px dotted white;
+    border-radius:15px;
+    background-color: #1849ca;
+    color:red;
+    height:210px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.78rem;
+    padding: 10px;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    -ms-border-radius:15px;
+    -o-border-radius:15px;
+}
+
+#description{
+    margin: 0;
+}
+
+#list-items{
+    position:relative;
+    top:5px;
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+
+#list-items li{
+    margin-bottom:2px;
+}
+
+li>span {
+    font-weight:bold;
+    margin-right:5px;
+    color:white;
+}
+
+.pokemonDescription p {
+    margin:0;
+}
+
+.indent{
+ position:absolute;
+ right:20px;
+}
+
+p>span{
+    position:relative;
+    top: 10px;
+}
