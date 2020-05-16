@@ -72,11 +72,11 @@ body {
     border-radius:15px;
     background-color: #1849ca;
     color:red;
-    font-weight: bold;
     height:210px;
     width: 100%;
     font-family: 'Open Sans', sans-serif;
     font-size: 0.78rem;
+    font-weight: bold;
     padding: 10px;
     -webkit-border-radius:15px;
     -moz-border-radius:15px;
