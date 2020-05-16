@@ -29,7 +29,7 @@ body {
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
-  background-image: url("./Images/CapVIron.jpg");
+  background-image: url("./Images/cap.gif");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -81,6 +81,7 @@ body {
     -moz-border-radius:15px;
     -ms-border-radius:15px;
     -o-border-radius:15px;
+    opacity: 0.9;
 }
 
 #description{
